@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+}
+header nav{
+    background-color:aqua;
+    margin:0;
+    padding:0;
+}
+header nav a{
+    text-decoration:none;
+}
+header nav a h1{
+    margin:0;
+    padding: 25px;
+    color:#000000;
+}
+main{
+    margin:0;
+    padding:0;
+}
+#jkt48-career{
+    background-image:url(img/bg.png);
+    background-position:center;
+    background-repeat:repeat;
+    margin:0;
+    padding:0;
+}
+#jkt48-career h2{
+    text-align:center;
+    font-size:30px;
+    margin:0;
+    padding:0;
+    padding-top:15px;
+}
+#jkt48-career h3{
+    font-size:25px;
+    margin:25px 0 0 30px;
+}
+#jkt48-career img{
+    height:350px;
+    margin:5px 30px;
+}
+#jkt48-career video{
+    height:350px;
+    margin:5px 30px;
+}
+#ssk2024{
+    background-image:url(img/bgssk.png);
+    background-position:center;
+    background-repeat:repeat;
+    margin:0;
+    padding:0;
+}
+#ssk2024 h1{
+    background-color:rgb(75, 75, 75);
+    margin:0;
+    padding:15px;
+    color:#FFFF;
+    text-align:center;
+}
+#ssk2024 h3{
+    font-size:25px;
+    margin:25px 0 0 30px;
+    color:#FFFF;
+}
+#ssk2024 img{
+    height:350px;
+    margin:5px 30px;
+}
+#ssk2024 video{
+    height:350px;
+    margin:5px 30px;
+}
