@@ -1,74 +1,108 @@
 body{
     margin:0;
     padding:0;
+    background:url(img/bg.png);
+    background-position:center;
+    background-repeat:repeat;
+    background-size:auto;
 }
-header nav{
+.burger{
+    display:none;
+}
+#navbar{
     background-color:aqua;
     margin:0;
-    padding:0;
+    padding:10px;
 }
-header nav a{
+#navbar a{
     text-decoration:none;
+    font-size:20px;
+    margin:100px;
 }
-header nav a h1{
-    margin:0;
-    padding: 25px;
+#navbar a:hover{
+    background-color:#ffffff;
     color:#000000;
+    border-radius:999px;
+    width:fit-content;
+    padding:5px;
 }
-main{
-    margin:0;
-    padding:0;
-}
-#jkt48-career{
-    background-image:url(img/bg.png);
-    background-position:center;
-    background-repeat:repeat;
-    margin:0;
-    padding:0;
-}
-#jkt48-career h2{
-    text-align:center;
-    font-size:30px;
-    margin:0;
-    padding:0;
-    padding-top:15px;
-}
-#jkt48-career h3{
-    font-size:25px;
-    margin:25px 0 0 30px;
-}
-#jkt48-career img{
-    height:350px;
-    margin:5px 30px;
-}
-#jkt48-career video{
-    height:350px;
-    margin:5px 30px;
-}
-#ssk2024{
-    background-image:url(img/bgssk.png);
-    background-position:center;
-    background-repeat:repeat;
-    margin:0;
-    padding:0;
-}
-#ssk2024 h1{
-    background-color:rgb(75, 75, 75);
-    margin:0;
+#home .profile{
+    background-color:#808080b6;
+    margin:25px;
     padding:15px;
-    color:#FFFF;
+    display:flex;
+}
+.profile img{
+    height:250px;
+}
+.profile table{
+    margin:50px;
+    font-size:20px;;
+}
+#journey{
+    margin:20px;
+}
+#journey h1{
     text-align:center;
 }
-#ssk2024 h3{
-    font-size:25px;
-    margin:25px 0 0 30px;
-    color:#FFFF;
+#journey img{
+    height:300px;
 }
-#ssk2024 img{
-    height:350px;
-    margin:5px 30px;
+#journey video{
+    height:300px;
 }
-#ssk2024 video{
-    height:350px;
-    margin:5px 30px;
+#show{
+    background-color:rgba(81, 76, 76, 0.750);
+    margin:50px;
 }
+#show h1{
+    text-align:center;
+    color:#ffffff
+}
+#show h2{
+    color:#ffffff;
+}
+#show ul{
+    font-weight:lighter;
+    margin:10px
+}
+@media only screen and (max-width: 600px) {
+    #navbar{
+        width:100%;
+        display:grid;
+        grid-template-columns:repeat(2,50%);
+        margin:0;
+        padding:3px;
+    }
+    #navbar a{
+        margin:10px;
+        font-size:15px;
+        color:blue;
+    }
+    #navbar a:hover{
+        padding:1.5px;
+    }
+    .profile img{
+        height:100px;
+    }
+    .profile table{
+        margin:auto;
+        font-size:60%;
+    }
+    #journey h1{
+        font-size:15px;
+    }
+    #journey h2{
+        font-size:10px;
+    }
+    #journey img,#journey video{
+        height:150px;
+    }
+    #show h1{
+        font-size:20px;
+    }
+    #show h2{
+        font-size:15px;
+    }
+}
+  
